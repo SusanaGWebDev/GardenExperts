@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="home.html" ><img class="logo" src="./image/log.png" alt=""> </a>
+
+    <nav class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="shop.html">Productos</a>
+        <a href="about.html">Sobre Nosotros</a>
+        <a href="contact.html">contacto</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>organic food</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">$18.99</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>56.97</span> </h3>
+        <a href="#" class="btn">checkout cart</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn">
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<div class="heading">
+    <h1>Nuestros Productos</h1>
+    <p> <a href="index.html">Inicio >></a> Productos </p>
+</div>
+
+<section class="category">
+
+    <h1 class="title">· <span>categorias</span></h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>Frutas</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>Vegetales</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="image/cat-3.png" alt="">
+            <h3>Medicinales</h3>
+        </a>
+
+
+        <a href="#" class="box">
+            <img src="image/cat-5.png" alt="">
+            <h3>Semillas</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<section class="products">
+
+    <h1 class="title"> Nuestros <span>productos</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/zanahoria.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE ZANAHORIA 2 GR</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/lechuga.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE LECHUGA 0.5 GR VERDE</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/remolacha.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE BETABEL REMOLACHA 2.1 GR ROJO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/semilla2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE COL VERDE 0.6 GR</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/brocoli.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE BRÓCOLI 0.3 GR</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/rabano.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE RÁBANO 2.8 GR ROJO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/chile.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE PIMIENTO DE CAYENNE 1 GR MULTICOLOR</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/fresas.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE FRESAS 30 SEMILLAS</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/melon.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS DE MELÓN 1.0 GR</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/romero.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>ROMERO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/apio.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>APIO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/hierbabuena.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>HERBA BUENA</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/culantro.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>CULANTRO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/oregano.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>OREGANO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/maceta.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>MACETAS</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/semilla.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>SEMILLAS PASTO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/pera.JPG" alt="">
+            </div>
+            <div class="content">
+                <h3>ARBOL DE PERA</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/melocoton.JPG" alt="">
+            </div>
+            <div class="content">
+                <h3>ARBOL DE MELOCOTON</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/prod/manzano.JPG" alt="">
+            </div>
+            <div class="content">
+                <h3>MANZANO</h3>
+                <div class="price">$18.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Links Rápidos</h3>
+            <a href="home.html"> <i class="fas fa-arrow-right"></i> Inicio</a>
+            <a href="shop.html"> <i class="fas fa-arrow-right"></i> Productos</a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> Sobre Nosotros</a>
+            <a href="contact.html"> <i class="fas fa-arrow-right"></i> Contacto</a>
+        </div>
+
+        <div class="box">
+            <h3>Links Extra</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mi orden </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mis favoritos </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Mi Cuenta </a>
+        </div>
+
+        <div class="box">
+            <h3>Síguenos</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-whatsapp"></i> WhatsApp </a>
+        </div>
+
+        <div class="box">
+            <h3>Suscripción</h3>
+            <p>Siempre te mantendremos informado!</p>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+            <img src="image/payment.png" class="payment" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom css file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
